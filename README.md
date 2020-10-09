@@ -1,15 +1,13 @@
 # mfdacov-code: 
 
-These are code files used for implementing covariance function estimation for multidimensional functional data proposed in Wang, J., Wong, R. K., & Zhang, X. (2020).
+This is the code accompanying with the paper Wang et. al. (2020+).
 
 # file description:
-**`mOpCov.cpp` and  `mOpCov_prep.R`** include source codes for  utility functions.  
+**`mOpCov.cpp` and  `mOpCov_prep.R`** include the source code of the method.  
 
 **`example.R`** is used for generating demo data.
 
-**`demo.R`** describes how to implement functions with a simulated example. Please check this file for details.
-
-**`convexsim.R`** is the file that we used to run simulations for one setting. 
+**`demo.R`** describes how to implement the method on a simulated example. Please check this file for details.
 
 ## References
-* J. Wang, R. K. W. Wong, X. Zhang. (2020) "Low-Rank Covariance Function Estimation for Multidimensional Functional Data". [\[arXiv\]] (https://arxiv.org/abs/2008.12919)
+* J. Wang, R. K. W. Wong, X. Zhang. (2020+) "Low-Rank Covariance Function Estimation for Multidimensional Functional Data". Journal of the American Statistical Association, to appear. [Journal](https://doi.org/10.1080/01621459.2020.1820344) [arXiv](https://arxiv.org/abs/2008.12919)
